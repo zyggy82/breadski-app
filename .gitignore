@@ -1,0 +1,43 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Backups and old versions
+bckp/
+src/old/
+src/*BWV*
+src/*bkp*
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.keystore
+*.jks
+
+# Android local configuration
+android/local.properties
+android/.gradle/
+android/**/build/
+android/captures/
+
+# Editor and system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Android signing credentials
+**/keystore.properties
+**/*.keystore
+**/*.jks
+**/*.p12
